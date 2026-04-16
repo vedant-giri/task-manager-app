@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #eef2f7;
+}
+
+/* container */
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+/* card */
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* inputs */
+.input {
+  padding: 10px;
+  margin: 8px 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+/* button */
+.btn {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-add {
+  background: #4CAF50;
+  color: white;
+}
+
+.btn-delete {
+  background: #ff4d4f;
+  color: white;
+  width: 100%;
+  margin-top: 8px;
+}
+
+/* board */
+.board {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.column {
+  flex: 1;
+  background: #f4f5f7;
+  padding: 10px;
+  border-radius: 10px;
+  min-height: 400px;
+}
+
+.column h3 {
+  text-align: center;
+}
+
+/* task card */
+.task {
+  background: white;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
