@@ -14,7 +14,9 @@ const auth = require("./middleware/auth");
 const app = express();
 app.use(express.json());
 
-app.use(cors({ origin: "http://localhost:3000" }));
+app.use(cors({
+  origin: "https://task-manager-app-seven-sage.vercel.app/"
+}));
 
 mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log("MongoDB Connected"))
